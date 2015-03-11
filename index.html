@@ -20,7 +20,7 @@
       
        $.ajax({
         type:"POST",
-        url:"envio.php",
+        url:"http://rosaisc.260mb.net/envio.php",
         data:"nombre="+nom+"&apellidop="+appp+"&apellidom="+appm+"&control="+con+"&semestre="+sem,
         success:recepcion
         });
@@ -46,7 +46,7 @@
       
        $.ajax({
         type:"POST",
-        url:"envioCalif.php",
+        url:"http://rosaisc.260mb.net/envioCalif.php",
         data:"control="+con+"&parcial1="+par1+"&parcial2="+par2+"&parcial3="+par3+"&parcial4="+par4+"&final="+fin,
         success:recepcion2
         });
